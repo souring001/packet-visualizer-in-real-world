@@ -3,8 +3,8 @@ LANケーブルに流れるパケットをLEDテープで可視化する
 
 ## LANケーブルを流れるPacketのプロトコルを判別
 
-利用ツール　「tsark」
-tsarkとはwiresharkのCUIツール　流れるパケットを監視可能
+%利用ツール　「tsark」
+%tsarkとはwiresharkのCUIツール　流れるパケットを監視可能
 
 tsharkでは
  `tshark -i 1 -w packet`
@@ -18,4 +18,6 @@ tsharkでは
  行毎の先頭に「プロトコル名」が出る
  
  <img width="197" alt="スクリーンショット 2019-08-20 20 40 40" src="https://user-images.githubusercontent.com/32484108/63344578-ba00dd00-c38b-11e9-9127-1ec5e1a2c73a.png">
+
+ファイルに書き込んでgolang側で一列目を抜けば良い
 
